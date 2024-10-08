@@ -1,0 +1,199 @@
+.portfolio {
+    /* border: 3px solid red; */
+    display: block;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    .text-section {
+        /* border: 3px solid deeppink; */
+        width: 70%;
+    }
+
+    .calculator-container {
+        /* border: 3px solid deeppink; */
+        padding: 25px;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    
+        .calculator {
+            /* border: 3px solid blue; */
+            width: 300px;
+            height: 600px;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 15px;
+            gap: 10px;
+            background: linear-gradient(to bottom right, #222 -200%, black 300%);
+            border: 5px solid #222;
+            /* padding-bottom: 50px; */
+            box-shadow: 0 0 50px #000000a2;
+            
+            input {
+                height: 100px;
+                width: 100%;
+                font-family: var(--body-font);
+                color: var(--txt-clr-light);
+                background-color: transparent;
+                outline: none;
+                border: none;
+                font-size: 60px;
+                text-align: right;
+            }
+        
+            input::placeholder {
+                color: var(--txt-clr-light);
+            }
+            
+            .buttons {
+                /* border: 3px solid red; */
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 5px;
+            
+                .btn {
+                    font-family: var(--body-font);
+                    font-weight: 500;
+                    width: 55px;
+                    height: 55px;
+                    border: none;
+                    border-radius: 50px;
+                    color: var(--txt-clr-light);
+                    background-color: #222;
+                    font-size: 22px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-sizing: border-box;
+                }
+        
+                .btn-0 {
+                    /* border: 3px solid red; */
+                    width: 120px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    padding: 25px;
+                    overflow: hidden;
+                }
+        
+                .primaryColorBtns {
+                    color: var(--txt-clr-dark);
+                    background-color: var(--clr-light-2);
+                }
+        
+                .lightColorBtns {
+                    background-color: #7a7a7a;
+                    color: var(--txt-clr-dark);
+                }   
+            }
+
+            /* Line that indicates task right at the bottom */
+            .line {
+                border: 2px solid #ededed;
+                padding: 0;
+                margin: 20px 30% 0px 30%;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+.weather-app {
+    .container {
+        margin: 30px;
+        border: 5px solid #222;
+        background: linear-gradient(to bottom right, #222 -30%, black 150%);
+        box-shadow: 0 0 50px #000000a2;
+        height: 400px;
+        width: 350px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 10px;
+
+        .para {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .temp-icon {
+            /* border: 3px solid deeppink; */
+            color: var(--clr-light-2);
+            font-size: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            h1 {
+                /* border: 3px solid red; */
+                color: white;
+                font-size: 64px;
+                margin: 0;
+                padding: 0;
+            }
+
+            i {
+                padding: 15px;
+                font-size: 100px;
+            }
+        }
+
+        .weather-condition {
+            .para {
+                /* border: 3px solid red; */
+                font-size: 36px;
+            }
+        }
+
+        .date-location {
+            /* border: 3px solid greenyellow; */
+            font-size: 15px;
+            font-weight: 500;
+            padding: 15px;
+            color: var(--txt-clr-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+
+            .para {
+                /* border: 3px solid deeppink; */
+                margin: 0;
+                /* padding: 10px; */
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    section {
+        /* border: 3px solid red; */
+        flex-direction: column;
+
+        .text-section {
+            /* border: 3px solid blue; */
+            width: 100%;
+        }
+    }
+}

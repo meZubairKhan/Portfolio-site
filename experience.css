@@ -1,0 +1,154 @@
+.experience {
+    .title {
+        /* border: 3px solid deeppink; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech-blocks {
+        /* border: 3px solid red; */
+        padding: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        .tech-block {
+            border: 3px solid var(--Outline);
+            width: 250px;
+            min-height: 400px;
+            border-radius: 15px;
+            padding: 15px;
+            transition: 0.2s ease-in-out;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.34);
+            cursor: pointer;
+    
+            .tech-logo {
+                /* border: 3px solid deeppink; */
+                padding: 10px;
+                width: auto;
+                height: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                gap: 15px;
+    
+                h1 {
+                    font-size: 20px;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                i {
+                    /* border: 3px solid purple; */
+                    color: var(--txt-clr-light);
+                    font-size: 48px;
+                    padding: 10px 0px;
+                    transition: 0.2s ease-in-out;
+                }
+            }
+    
+            .explanation {
+                /* border: 3px solid orange; */
+                margin-top: 10px;
+    
+                .para {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    
+        .wordpress {
+
+            .tech-logo {
+                h1 {
+                    /* border: 3px solid red; */
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .tech-block:hover {
+            transform: scale(1.02);
+        }
+
+        .html:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, orangered 500%);
+            border: 3px solid orangered;
+
+            i {
+                color: orangered;
+            }
+        }
+        .css:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, deepskyblue 500%);
+            border: 3px solid deepskyblue;
+
+            i {
+                color: deepskyblue;
+            }
+        }
+        .wordpress:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, skyblue 500%);
+            border: 3px solid skyblue;
+
+            i {
+                color: skyblue;
+            }
+        }
+        .php:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, #777BB3 500%);
+            border: 3px solid #777BB3;
+            i {
+                color: #777BB3;
+            }
+        }
+        .js:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, gold 500%);
+            border: 3px solid gold;
+
+            i {
+                color: gold;
+            }
+        }
+        .bootstrap:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, blueviolet 500%);
+            border: 3px solid blueviolet;
+            i {
+                color: blueviolet;
+            }
+        }
+        .SQL:hover {
+            background: linear-gradient(to bottom, var(--clr-dark-1) 50%, greenyellow 500%);
+
+            border: 3px solid greenyellow;
+            i {
+                color: greenyellow;
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 425px) {
+
+    .experience {
+        
+        .tech-blocks {
+            border-radius: 15px;
+            padding: 25px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+    }
+}
