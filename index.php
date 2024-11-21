@@ -26,7 +26,7 @@
                 <a href="contact">
                     <button class="btnPrimary">Contact Me</button>
                 </a>
-                <a href="https://drive.google.com/file/d/15xPeZgBmmDDHN_McmpA_OOHCVbT8-aaD/view?usp=drive_link" target="_blank">
+                <a href="https://drive.google.com/file/d/1ezVpqBKt-gcRM5fFb6kKlx7Bp0zeTvR4/view?usp=sharing" target="_blank">
                     <button class="btnSecondary"><i class="fa-solid fa-down-long"></i> Resume</button>
                 </a>
             </div>
@@ -146,7 +146,7 @@
         <h2>Final Year Project</h2>
         
         <div class="embed-link">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1aYpkgukDXE?si=GEp2wZVORSQU7z3i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TPvG-jc9dso?si=_dskPtS4btiu4Pzn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <p class="para">Developed a zombie shooter game using Unity game engine as my final year project. I got A grade in my final year project and topped my entire academic badge. Here are some details about the project:</p>
