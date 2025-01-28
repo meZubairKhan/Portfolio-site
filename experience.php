@@ -85,12 +85,12 @@
     
                 <div class="explanation">
                     <p class="para">
-                        General understanding and practice of the core programming concepts including, variables, datatypes, loops, arrays, operators, conditional statements, functions, classes and objects.
+                        General understanding and practice of the core programming concepts including, variables, datatypes, loops, arrays, operators, conditional statements, functions, classes and objects. Advance concepts like DOM manipulation, Promises, Asynchronous JavaScript, Async Await, Async functions etc.
                     </p>
                 </div>
             </div>
 
-            <div class="tech-block bootstrap">
+            <!-- <div class="tech-block bootstrap">
                 <div class="tech-logo">
                     <i class="fa-brands fa-bootstrap"></i>
     
@@ -116,7 +116,7 @@
                         ...
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 

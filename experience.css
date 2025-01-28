@@ -51,6 +51,8 @@
                     padding: 10px 0px;
                     transition: 0.2s ease-in-out;
                 }
+
+                
             }
     
             .explanation {
@@ -62,6 +64,8 @@
                     margin: 0;
                 }
             }
+
+            
         }
     
         .wordpress {
@@ -85,6 +89,13 @@
             i {
                 color: orangered;
             }
+
+            .para {
+
+                span {
+                    color: orangered;
+                }
+            }
         }
         .css:hover {
             background: linear-gradient(to bottom, var(--clr-dark-1) 50%, deepskyblue 500%);
@@ -92,6 +103,13 @@
 
             i {
                 color: deepskyblue;
+            }
+
+            .para {
+
+                span {
+                    color: deepskyblue;
+                }
             }
         }
         .wordpress:hover {
@@ -101,12 +119,26 @@
             i {
                 color: skyblue;
             }
+
+            .para {
+
+                span {
+                    color: skyblue;
+                }
+            }
         }
         .php:hover {
             background: linear-gradient(to bottom, var(--clr-dark-1) 50%, #777BB3 500%);
             border: 3px solid #777BB3;
             i {
                 color: #777BB3;
+            }
+
+            .para {
+
+                span {
+                    color: #777BB3;
+                }
             }
         }
         .js:hover {
@@ -116,12 +148,26 @@
             i {
                 color: gold;
             }
+
+            .para {
+
+                span {
+                    color: gold;
+                }
+            }
         }
-        .bootstrap:hover {
+        /* .bootstrap:hover {
             background: linear-gradient(to bottom, var(--clr-dark-1) 50%, blueviolet 500%);
             border: 3px solid blueviolet;
             i {
                 color: blueviolet;
+            }
+
+            .para {
+
+                span {
+                    color: gold;
+                }
             }
         }
         .SQL:hover {
@@ -131,7 +177,7 @@
             i {
                 color: greenyellow;
             }
-        }
+        } */
 
 
     }
