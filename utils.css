@@ -6,11 +6,11 @@
     /* Pink color */
     /* --clr-dark-1: #091134;
     --clr-light-2: #FF2F6F; */
-    
+
     /* Orange color */
     /* --clr-dark-1: #DAD3CB;
     --clr-light-2: #FF570C; */
-    
+
     /* Skillshare Colors */
     /* --clr-dark-1: #011D2E;
     --clr-light-2: #02FF7B; */
@@ -50,7 +50,7 @@
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 5px;
-    
+
 }
 
 ::-webkit-scrollbar-thumb {
@@ -88,7 +88,7 @@ section {
         /* border: 3px solid red; */
         margin: 10px 50px;
         padding: 0;
-        
+
     }
 }
 
@@ -99,7 +99,10 @@ hr {
     margin: 0px 10%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--heading-font);
     color: var(--clr-light-2);
     margin: 0px 0px 25px 0px;
@@ -119,7 +122,8 @@ h2 {
     color: var(--txt-clr-light);
     font-family: var(--body-font);
     text-align: center;
-    margin: 50px 0px;;
+    margin: 50px 0px;
+    ;
 }
 
 .justPara {
@@ -194,11 +198,13 @@ a {
     gap: 10px;
 }
 
-.btnPrimary:hover, .btnSecondary:hover {
+.btnPrimary:hover,
+.btnSecondary:hover {
     transform: scale(1.05);
 }
 
-.btnPrimary:active, .btnSecondary:active {
+.btnPrimary:active,
+.btnSecondary:active {
     transform: scale(0.95);
 }
 
@@ -212,10 +218,10 @@ a {
     justify-content: center;
 
     iframe {
-    border: 3px solid var(--Outline);
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.34);
-    margin: 25px 0px;
+        border: 3px solid var(--Outline);
+        border-radius: 15px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.34);
+        margin: 25px 0px;
     }
 }
 
@@ -227,7 +233,7 @@ header {
 .announcement-bar {
     background-color: var(--clr-light-2);
     padding: 5px 10%;
-    
+
     p {
         color: var(--clr-dark-1);
         font-weight: 700;
@@ -277,12 +283,13 @@ nav {
     }
 }
 
-.nav-bar-icons, .footer-icons {
+.nav-bar-icons,
+.footer-icons {
     /* border: 3px solid deeppink; */
     color: var(--txt-clr-light);
     display: flex;
     font-size: 18px;
-    
+
     .social-icons {
         /* border: 3px solid deepskyblue; */
         width: 50px;
@@ -341,7 +348,7 @@ footer {
     background: linear-gradient(to top, var(--clr-light-2) -500%, var(--clr-dark-1) 70%);
     position: sticky;
     top: 100%;
-    
+
     .footer-top {
         /* border: 3px solid orangered; */
         display: flex;
@@ -374,7 +381,7 @@ footer {
                 justify-content: space-evenly;
                 font-size: 22px;
 
-                a{
+                a {
                     /* border: 3px solid red; */
                     text-decoration: none;
                     padding: 10px;
@@ -409,7 +416,7 @@ footer {
                 justify-content: left;
                 gap: 15px;
 
-                i{ 
+                i {
                     width: 20px;
                     display: flex;
                     align-items: center;
@@ -421,7 +428,7 @@ footer {
                 color: var(--clr-light-2);
             }
         }
-    
+
     }
 
     .footer-bottom {
